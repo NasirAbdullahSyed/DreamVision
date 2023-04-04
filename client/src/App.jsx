@@ -25,7 +25,7 @@ const App = () => {
     <BrowserRouter>
       <div className='relative z-0'>
         <Header />
-        <main className='sm:p-8 px-4 py-8 w-full text-[#0096c7] min-h-[calc(100vh - 73px)]'>
+        <main className='sm:p-8 px-4 py-8 w-full text-[#0096c7] min-h-screen'>
         
           <Routes>
             <Route path="/" element={<Home/>}/>
